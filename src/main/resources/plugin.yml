@@ -1,0 +1,12 @@
+name: DiverseItemManager
+version: ${project.version}
+main: com.github.aburaagetarou.diverseitemmanager.DiverseItemManager
+api-version: 1.16
+
+commands:
+  diverseenderchest:
+    aliases:
+      - dec
+    description: /diverseenderchest <open>
+    permission: diverseitemmanager.enderchest
+
